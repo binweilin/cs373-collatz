@@ -35,21 +35,28 @@ def collatz_eval (i, j) :
     # <your code>
     if i > j:
         i, j = j , i
-    
+
+    max_length = 1
     if i < j//2:
         i = j//2
 
-    max_length = 1
-    for x in range(i, j):
+    for x in range(i, j+1):
         n = x
         length = 1
-        while n != 1:
-            if n%2 == 0:
-                n //= 2
-                length = length + 1
-            else:
-                n = (3*n + 1)//2
-                length = length + 2
+        if x in cache:
+            length = cache[x]
+        else:
+            while n != 1:               
+                if n%2 == 0:
+                    n //= 2
+                    length = length + 1
+                elif n%2 != 0:
+                    n = (3*n + 1)//2
+                    length = length + 2
+                if n in cache:
+                    length = length + cache[n]-1
+                    n = 1;
+            cache[x] = length
         if length > max_length:
             max_length = length
     return max_length
