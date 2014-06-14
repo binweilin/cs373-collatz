@@ -33,16 +33,19 @@ def collatz_eval (i, j) :
     return the max cycle length in the range [i, j]
     """
     # <your code>
-    max_length = 0
+    if i < j//2:
+        i = j//2
+
+    max_length = 1
     for x in range(i, j):
         n = x
         length = 1
         while n != 1:
             if n%2 == 0:
-                n /= 2
+                n //= 2
                 length = length + 1
             else:
-                n = (3*n + 1)/2
+                n = (3*n + 1)//2
                 length = length + 2
         if length > max_length:
             max_length = length
