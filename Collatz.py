@@ -10,6 +10,8 @@
 # collatz_read
 # ------------
 
+cache = {}
+
 def collatz_read (r) :
     """
     read two ints
