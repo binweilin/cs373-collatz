@@ -42,8 +42,8 @@ def collatz_eval (i, j) :
                 n /= 2
                 length = length + 1
             else:
-                n = 3*n + 1
-                length = length + 1
+                n = (3*n + 1)/2
+                length = length + 2
         if length > max_length:
             max_length = length
     return max_length
