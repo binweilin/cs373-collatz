@@ -1,10 +1,71 @@
-1. original code
-2. add excute files
-3. simplest form
-4. first optimization: two operations at a time
-5. second optimization: check if i < j/2
-6. check the value of two inputs and put samller in front of larger one
-7. add cache
-8. fix a small typo of cache
-9.create SphereCollatz.py
-10. git SHA
+commit 094f951773d7bc02bc2d271d4d8f32262b3e0c10
+Author: binwei lin <binwei92@cs.utexas.edu>
+Date:   Mon Jun 16 12:15:24 2014 -0500
+
+    pydoc
+
+commit d4f92b7bf6a0d17c91ecb1eb5bfb62fb087783fa
+Author: binwei lin <binwei92@cs.utexas.edu>
+Date:   Sat Jun 14 16:38:05 2014 -0500
+
+    git SHA
+
+commit 2027a5f2c7c4516e10f6252df4c51076bc7798b1
+Author: binwei lin <binwei92@cs.utexas.edu>
+Date:   Sat Jun 14 15:55:42 2014 -0500
+
+    SphereCollatz.py
+
+commit 814beeb6f6649bb13abbef0952590e0a45718f2b
+Author: binwei lin <binwei92@cs.utexas.edu>
+Date:   Sat Jun 14 15:50:45 2014 -0500
+
+    cache
+
+commit 4b10ec14a25745f57bc95c3731d733b4967df046
+Author: binwei lin <binwei92@cs.utexas.edu>
+Date:   Sat Jun 14 15:44:17 2014 -0500
+
+    cache
+
+commit 81c38acf3f0a97823fca8c46561aad305bf46b46
+Author: binwei lin <binwei92@cs.utexas.edu>
+Date:   Sat Jun 14 15:41:07 2014 -0500
+
+    put larger integer at first place
+
+commit a73232a28bc872dacee29d01adf943507076627d
+Author: binwei lin <binwei92@cs.utexas.edu>
+Date:   Sat Jun 14 15:39:29 2014 -0500
+
+    second optimization and integer division
+
+commit 5dc89c63cb547ce444566410066404b890e8a2bf
+Author: binwei lin <binwei92@cs.utexas.edu>
+Date:   Sat Jun 14 15:37:39 2014 -0500
+
+    two operations once
+
+commit b8117d15e94e95983b16488161237c8b01652e67
+Author: binwei lin <binwei92@cs.utexas.edu>
+Date:   Wed Jun 11 14:58:37 2014 -0500
+
+    most stupid
+
+commit 5dfeed62cc929301997ec41bd5a57ef0698f975b
+Author: binwei lin <binwei92@cs.utexas.edu>
+Date:   Wed Jun 11 14:45:42 2014 -0500
+
+    run file
+
+commit c9c5179794646cc6e05a89d436590e1a5716564a
+Author: binwei lin <binwei92@cs.utexas.edu>
+Date:   Wed Jun 11 12:39:28 2014 -0500
+
+    original code
+
+commit 00d128f0db60d8bc243554cd6a3bc3ff49797ce3
+Author: binweilin <binwei92@utexas.edu>
+Date:   Wed Jun 11 12:31:35 2014 -0500
+
+    Initial commit
